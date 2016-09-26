@@ -5178,18 +5178,21 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <net name="N$18" class="0">
 <segment>
 <wire x1="-50.8" y1="-109.22" x2="2.54" y2="-109.22" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-109.22" x2="2.54" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-109.22" x2="2.54" y2="-93.98" width="0.1524" layer="91"/>
 <pinref part="S7" gate="1" pin="S"/>
+<wire x1="2.54" y1="-93.98" x2="2.54" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-91.44" x2="0" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-109.22" x2="33.02" y2="-109.22" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="-109.22" x2="33.02" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-109.22" x2="33.02" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="2.54" y="-109.22"/>
 <pinref part="S8" gate="1" pin="S"/>
+<wire x1="33.02" y1="-93.98" x2="33.02" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-91.44" x2="30.48" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-109.22" x2="63.5" y2="-109.22" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="-109.22" x2="63.5" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-109.22" x2="63.5" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="33.02" y="-109.22"/>
 <pinref part="S9" gate="1" pin="S"/>
+<wire x1="63.5" y1="-93.98" x2="63.5" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-91.44" x2="60.96" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-109.22" x2="-50.8" y2="-78.74" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="A0"/>
@@ -5197,6 +5200,15 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="-109.22" x2="78.74" y2="-109.22" width="0.1524" layer="91"/>
 <junction x="63.5" y="-109.22"/>
+<pinref part="S7" gate="1" pin="S1"/>
+<wire x1="0" y1="-93.98" x2="2.54" y2="-93.98" width="0.1524" layer="91"/>
+<junction x="2.54" y="-93.98"/>
+<pinref part="S8" gate="1" pin="S1"/>
+<wire x1="30.48" y1="-93.98" x2="33.02" y2="-93.98" width="0.1524" layer="91"/>
+<junction x="33.02" y="-93.98"/>
+<pinref part="S9" gate="1" pin="S1"/>
+<wire x1="60.96" y1="-93.98" x2="63.5" y2="-93.98" width="0.1524" layer="91"/>
+<junction x="63.5" y="-93.98"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -5518,21 +5530,36 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <wire x1="-48.26" y1="-76.2" x2="-48.26" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-104.14" x2="5.08" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="S4" gate="1" pin="S"/>
-<wire x1="5.08" y1="-76.2" x2="0" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-76.2" x2="2.54" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-76.2" x2="0" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-104.14" x2="35.56" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-104.14" x2="35.56" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="5.08" y="-104.14"/>
 <pinref part="S5" gate="1" pin="S"/>
-<wire x1="35.56" y1="-76.2" x2="30.48" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-76.2" x2="33.02" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-76.2" x2="30.48" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-104.14" x2="66.04" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-104.14" x2="66.04" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="35.56" y="-104.14"/>
 <pinref part="S6" gate="1" pin="S"/>
-<wire x1="66.04" y1="-76.2" x2="60.96" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-76.2" x2="63.5" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-76.2" x2="60.96" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="-104.14" x2="5.08" y2="-104.14" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="-104.14" x2="78.74" y2="-104.14" width="0.1524" layer="91"/>
 <junction x="66.04" y="-104.14"/>
+<pinref part="S4" gate="1" pin="S1"/>
+<wire x1="0" y1="-78.74" x2="2.54" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-78.74" x2="2.54" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="2.54" y="-76.2"/>
+<pinref part="S5" gate="1" pin="S1"/>
+<wire x1="30.48" y1="-78.74" x2="33.02" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-78.74" x2="33.02" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="33.02" y="-76.2"/>
+<pinref part="S6" gate="1" pin="S1"/>
+<wire x1="60.96" y1="-78.74" x2="63.5" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-78.74" x2="63.5" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="63.5" y="-76.2"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -5543,20 +5570,35 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <wire x1="-45.72" y1="-99.06" x2="7.62" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-99.06" x2="7.62" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="S"/>
-<wire x1="7.62" y1="-60.96" x2="0" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-60.96" x2="2.54" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-60.96" x2="0" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-99.06" x2="38.1" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-99.06" x2="38.1" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="7.62" y="-99.06"/>
 <pinref part="S2" gate="1" pin="S"/>
-<wire x1="38.1" y1="-60.96" x2="30.48" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-60.96" x2="33.02" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-60.96" x2="30.48" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-99.06" x2="68.58" y2="-99.06" width="0.1524" layer="91"/>
 <junction x="38.1" y="-99.06"/>
 <wire x1="68.58" y1="-99.06" x2="68.58" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="S3" gate="1" pin="S"/>
-<wire x1="68.58" y1="-60.96" x2="60.96" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-60.96" x2="63.5" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="-60.96" x2="60.96" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="-99.06" x2="78.74" y2="-99.06" width="0.1524" layer="91"/>
 <junction x="68.58" y="-99.06"/>
+<pinref part="S1" gate="1" pin="S1"/>
+<wire x1="0" y1="-63.5" x2="2.54" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-63.5" x2="2.54" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="2.54" y="-60.96"/>
+<pinref part="S2" gate="1" pin="S1"/>
+<wire x1="30.48" y1="-63.5" x2="33.02" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-63.5" x2="33.02" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="33.02" y="-60.96"/>
+<pinref part="S3" gate="1" pin="S1"/>
+<wire x1="60.96" y1="-63.5" x2="63.5" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-63.5" x2="63.5" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="63.5" y="-60.96"/>
 </segment>
 </net>
 <net name="N$46" class="0">
@@ -5566,21 +5608,36 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <wire x1="-45.72" y1="-71.12" x2="-45.72" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-50.8" x2="-17.78" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="S7" gate="1" pin="P"/>
-<wire x1="-17.78" y1="-91.44" x2="-10.16" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-91.44" x2="-12.7" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-91.44" x2="-10.16" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-50.8" x2="12.7" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-50.8" x2="12.7" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="S8" gate="1" pin="P"/>
-<wire x1="12.7" y1="-91.44" x2="20.32" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-91.44" x2="17.78" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-91.44" x2="20.32" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-50.8" x2="43.18" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-50.8" x2="43.18" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="12.7" y="-50.8"/>
 <pinref part="S9" gate="1" pin="P"/>
-<wire x1="43.18" y1="-91.44" x2="50.8" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-91.44" x2="48.26" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-91.44" x2="50.8" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="-50.8" x2="-17.78" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="-17.78" y="-50.8"/>
 <wire x1="43.18" y1="-50.8" x2="78.74" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="43.18" y="-50.8"/>
 <pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="-12.7" y1="-93.98" x2="-12.7" y2="-91.44" width="0.1524" layer="91"/>
+<junction x="-12.7" y="-91.44"/>
+<pinref part="S8" gate="1" pin="P1"/>
+<wire x1="20.32" y1="-93.98" x2="17.78" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-93.98" x2="17.78" y2="-91.44" width="0.1524" layer="91"/>
+<junction x="17.78" y="-91.44"/>
+<pinref part="S9" gate="1" pin="P1"/>
+<wire x1="50.8" y1="-93.98" x2="48.26" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-93.98" x2="48.26" y2="-91.44" width="0.1524" layer="91"/>
+<junction x="48.26" y="-91.44"/>
+<pinref part="S7" gate="1" pin="P1"/>
+<wire x1="-12.7" y1="-93.98" x2="-10.16" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -5591,20 +5648,35 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <wire x1="-48.26" y1="-45.72" x2="-15.24" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="-45.72" x2="-15.24" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="S4" gate="1" pin="P"/>
-<wire x1="-15.24" y1="-76.2" x2="-10.16" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-76.2" x2="-12.7" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-76.2" x2="-10.16" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="-45.72" x2="15.24" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-45.72" x2="15.24" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="S5" gate="1" pin="P"/>
-<wire x1="15.24" y1="-76.2" x2="20.32" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-76.2" x2="17.78" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-76.2" x2="20.32" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-45.72" x2="45.72" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="-45.72" x2="45.72" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="15.24" y="-45.72"/>
 <pinref part="S6" gate="1" pin="P"/>
-<wire x1="45.72" y1="-76.2" x2="50.8" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-76.2" x2="48.26" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="-15.24" y="-45.72"/>
 <pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="-76.2" x2="50.8" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="-45.72" x2="78.74" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="45.72" y="-45.72"/>
+<pinref part="S4" gate="1" pin="P1"/>
+<wire x1="-10.16" y1="-78.74" x2="-12.7" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-78.74" x2="-12.7" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="-12.7" y="-76.2"/>
+<pinref part="S5" gate="1" pin="P1"/>
+<wire x1="20.32" y1="-78.74" x2="17.78" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-78.74" x2="17.78" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="17.78" y="-76.2"/>
+<pinref part="S6" gate="1" pin="P1"/>
+<wire x1="50.8" y1="-78.74" x2="48.26" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-78.74" x2="48.26" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="48.26" y="-76.2"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -5629,6 +5701,18 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <junction x="48.26" y="-40.64"/>
 <wire x1="17.78" y1="-60.96" x2="17.78" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="17.78" y="-40.64"/>
+<pinref part="S1" gate="1" pin="P1"/>
+<wire x1="-10.16" y1="-63.5" x2="-12.7" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-63.5" x2="-12.7" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="-12.7" y="-60.96"/>
+<pinref part="S2" gate="1" pin="P1"/>
+<wire x1="20.32" y1="-63.5" x2="17.78" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-63.5" x2="17.78" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="17.78" y="-60.96"/>
+<pinref part="S3" gate="1" pin="P1"/>
+<wire x1="50.8" y1="-63.5" x2="48.26" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-63.5" x2="48.26" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="48.26" y="-60.96"/>
 </segment>
 </net>
 </nets>
